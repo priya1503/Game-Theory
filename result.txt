@@ -1,0 +1,40 @@
+
+
+interval = {"user1":{"appliance1": [1, 3, 24, 2],"appliance2": [0, 1, 44, 1],"appliance3": [1, 4, 25, 3]},
+          "user2":{"appliance1": [1, 3, 27, 2],"appliance2": [1, 4, 43, 2],"appliance3": [1, 4, 27, 3]},
+          "user3":{"appliance1": [0, 3, 13, 2],"appliance2": [1, 2, 49, 1],"appliance3": [2, 4, 16, 2]},
+          "user4":{"appliance1": [0, 4, 16, 2],"appliance2": [1, 3, 22, 1],"appliance3": [0, 2, 27, 1]},
+          "user5":{"appliance1": [0, 3, 48, 2],"appliance2": [0, 4, 33, 3],"appliance3": [0, 4, 24, 4]},
+          "user6":{"appliance1": [0, 2, 38, 1],"appliance2": [0, 4, 40, 4],"appliance3": [0, 4, 38, 2]},
+          "user7":{"appliance1": [0, 2, 44, 2],"appliance2": [0, 3, 36, 3],"appliance3": [1, 3, 42, 1]},
+          "user8":{"appliance1": [0, 2, 33, 2],"appliance2": [0, 4, 39, 4],"appliance3": [0, 4, 30, 4]},
+          "user9":{"appliance1": [1, 4, 37, 3],"appliance2": [0, 3, 37, 2],"appliance3": [0, 4, 17, 4]},
+          "user10":{"appliance1": [1, 2, 45, 1],"appliance2": [0, 4, 27, 2],"appliance3": [0, 4, 25, 3]},
+}
+
+energy = {
+"user1":{"appliance1": [0, 12.0, 12.0, 0, 0],"appliance2": [44.0, 0, 0, 0, 0],"appliance3": [0, 8.33, 8.33, 8.33, 0]},
+"user2":{"appliance1": [0, 13.5, 13.5, 0, 0],"appliance2": [0, 21.5, 21.5, 0, 0],"appliance3": [0, 9.0, 9.0, 9.0, 0]},
+"user3":{"appliance1": [6.5, 6.5, 0, 0, 0],"appliance2": [0, 49.0, 0, 0, 0],"appliance3": [0, 0, 8.0, 8.0, 0]},
+"user4":{"appliance1": [8.0, 8.0, 0, 0, 0],"appliance2": [0, 22.0, 0, 0, 0],"appliance3": [27.0, 0, 0, 0, 0]},
+"user5":{"appliance1": [24.0, 24.0, 0, 0, 0],"appliance2": [11.0, 11.0, 11.0, 0, 0],"appliance3": [6.0, 6.0, 6.0, 6.0, 0]},
+"user6":{"appliance1": [38.0, 0, 0, 0, 0],"appliance2": [10.0, 10.0, 10.0, 10.0, 0],"appliance3": [19.0, 19.0, 0, 0, 0]},
+"user7":{"appliance1": [22.0, 22.0, 0, 0, 0],"appliance2": [12.0, 12.0, 12.0, 0, 0],"appliance3": [0, 42.0, 0, 0, 0]},
+"user8":{"appliance1": [16.5, 16.5, 0, 0, 0],"appliance2": [9.75, 9.75, 9.75, 9.75, 0],"appliance3": [7.5, 7.5, 7.5, 7.5, 0]},
+"user9":{"appliance1": [0, 12.33, 12.33, 12.33, 0],"appliance2": [18.5, 18.5, 0, 0, 0],"appliance3": [4.25, 4.25, 4.25, 4.25, 0]},
+"user10":{"appliance1": [0, 45.0, 0, 0, 0],"appliance2": [13.5, 13.5, 0, 0, 0],"appliance3": [8.33, 8.33, 8.33, 0, 0]},
+}
+
+Final schedules
+{
+"user1 : {"appliance1": [0, 0, 12.0, 12.0, 0],"appliance2": [44.0, 0, 0, 0, 0],"appliance3": [0, 0, 8.33, 8.33, 8.33]}
+"user2 : {"appliance1": [0, 0, 13.5, 13.5, 0],"appliance2": [0, 0, 0, 21.5, 21.5],"appliance3": [0, 0, 9.0, 9.0, 9.0]}
+"user3 : {"appliance1": [0, 0, 6.5, 6.5, 0],"appliance2": [0, 0, 49.0, 0, 0],"appliance3": [0, 0, 0, 8.0, 8.0]}
+"user4 : {"appliance1": [0, 0, 0, 8.0, 8.0],"appliance2": [0, 0, 0, 22.0, 0],"appliance3": [0, 0, 27.0, 0, 0]}
+"user5 : {"appliance1": [0, 0, 24.0, 24.0, 0],"appliance2": [0, 0, 11.0, 11.0, 11.0],"appliance3": [6.0, 0, 6.0, 6.0, 6.0]}
+"user6 : {"appliance1": [0, 0, 38.0, 0, 0],"appliance2": [10.0, 0, 10.0, 10.0, 10.0],"appliance3": [0, 0, 0, 19.0, 19.0]}
+"user7 : {"appliance1": [22.0, 0, 22.0, 0, 0],"appliance2": [12.0, 0, 12.0, 12.0, 0],"appliance3": [0, 0, 0, 42.0, 0]}
+"user8 : {"appliance1": [16.5, 0, 16.5, 0, 0],"appliance2": [9.75, 0, 9.75, 9.75, 9.75],"appliance3": [7.5, 0, 7.5, 7.5, 7.5]}
+"user9 : {"appliance1": [0, 0, 12.33, 12.33, 12.33],"appliance2": [0, 0, 18.5, 18.5, 0],"appliance3": [4.25, 0, 4.25, 4.25, 4.25]}
+"user10: {"appliance1": [0, 0, 45.0, 0, 0],"appliance2": [0, 0, 0, 13.5, 13.5],"appliance3": [8.33, 0, 0, 8.33, 8.33]}
+}
